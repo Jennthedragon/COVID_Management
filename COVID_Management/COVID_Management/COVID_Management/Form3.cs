@@ -26,6 +26,9 @@ namespace COVID_Management
 
         private void nextButton_Click(object sender, EventArgs e)
         {
+            Form4 f4 = new Form4();
+            f4.Show();
+            //this.Close();
             DateTime iDate;
             iDate = dateTimePicker1.Value;
 
